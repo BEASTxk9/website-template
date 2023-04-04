@@ -1,9 +1,9 @@
 <template>
   <Header></Header>
-
+    <NavBar></NavBar>
   <main data-aos="fade-in" data-aos-delay="10000" data-aos-easing="ease-in">
 
-    <NavBar></NavBar>
+
 
     <section id="About">
       <h1>Hello</h1>
@@ -29,6 +29,7 @@ export default {
 
 <style>
 main{
+  padding-top: 10vh;
   background-color: #000000;
   background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23a1a1a1' fill-opacity='0.08' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 background-color: #171717;
