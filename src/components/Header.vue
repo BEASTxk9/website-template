@@ -1,9 +1,9 @@
 <template>
     <header>
 
-        <section id="header_bg_img" class="fixed-top" data-aos="fade-in" defer>
-        </section>
-        
+        <section id="header_bg_img" class="fixed-top" data-aos="fade-in" defer>     
+        </section>  
+
             <section id="content">          
                   <div class="container displayBox" data-aos="zoom-in" data-aos-delay="500">
                     <div class="row justify-content-center">
@@ -22,6 +22,8 @@
 
                     </div>
                 </div>
+
+
             </section>
 
     </header>
@@ -44,6 +46,7 @@ header{
     background-repeat: no-repeat;
     z-index: -5000 !important;
    } 
+
 
    #content{
 	display: grid;

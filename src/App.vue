@@ -1,5 +1,4 @@
 <template>
-
   <router-view/>
 </template>
 
@@ -14,6 +13,7 @@
 
 
 section{
-  min-height: 100vh;
+  padding-top: 3vh;
+  min-height: 100vh ;
 }
 </style>
