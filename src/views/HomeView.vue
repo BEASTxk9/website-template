@@ -5,7 +5,7 @@
 
     <NavBar></NavBar>
 
-    <section>
+    <section id="About">
       <h1>Hello</h1>
     </section>
   </main>
