@@ -63,8 +63,7 @@ export default {
 }
 </script>
 
-<style scoped>
-    
+<style scoped> 
 nav {
     padding: 30px;
     position: sticky;
@@ -103,6 +102,7 @@ nav {
     margin-right: 5px;
     color: white;
     box-shadow: 0px 0px 36px rgba(252, 252, 252, 0.801);
+    outline: none !important;
   }
 
   #ss-img{
