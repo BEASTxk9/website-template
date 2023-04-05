@@ -5,6 +5,10 @@
 
 <About></About>
 
+<div class="fixed-bottom">
+<img id="border_bottom_city" src="https://i.postimg.cc/brpYRWgJ/Pin-Clipart-com-new-york-city-skyline-900460-removebg-preview.png" alt="border_bottom_city">
+</div>
+
   </main>
 
   <FooterVue></FooterVue>
@@ -34,6 +38,10 @@ main{
   margin-top: -20vh;
   background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23a1a1a1' fill-opacity='0.08' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 background-color: #171717e1;
+}
+
+#border_bottom_city{
+  opacity: 0.2;
 }
 
 footer{
