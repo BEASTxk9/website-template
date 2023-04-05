@@ -11,7 +11,6 @@
 
     <!-- button -->
     <button class="btn text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
-  <img id="ss-img" src="https://i.postimg.cc/CK842sMg/me3-removebg.png" alt="img of shane stevens">
   <p class="toggle-text">MENU</p>
     </button>
 
