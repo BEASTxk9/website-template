@@ -9,7 +9,7 @@
                     <div class="row justify-content-center">
                         <div class="col-sm-12">
                             <h1>Shane Stevens</h1>
-                            <h2>I am an Aspiring Fullstack Web Developer & Designer!</h2>
+                            <h2>Aspiring Fullstack Web Developer & Designer!</h2>
                             <h3>DEDICATED | DISCIPLINED | DIFFERENT</h3>
                          
                             <button class="mouse" scr="#about">
@@ -54,23 +54,70 @@ header{
     color: white;
     font-weight: bold;
     font-family: robot mono, raleway;
+    transition: all 0.3s ease-in-out;
    }
 
 #content h1{
     margin-bottom: -1vh;
     font-size: 10rem;
+    transition: all 0.3s ease-in-out;
 }
 #content h2{
     font-size: 2.3rem;
+    transition: all 0.3s ease-in-out;
 }
 #content h3{
     padding: 10px;
     font-size: 1.3rem;
+    transition: all 0.3s ease-in-out;
 }
-
-
-
-
+@media only screen and (max-width: 992px){
+  #content h1{
+    font-size: 7rem;
+}
+#content h2{
+    font-size: 2rem;
+}
+#content h3{
+    font-size: 1rem;
+}
+}
+@media only screen and (max-width: 768px){
+  #content h1{
+    font-size: 5rem;
+}
+#content h2{
+    font-size: 1.5rem;
+}
+#content h3{
+    font-size: 0.8rem;
+}
+}
+@media only screen and (max-width: 489px){
+  #content h1{
+    font-size: 3.5rem;
+}
+#content h2{
+    font-size: 1rem;
+}
+#content h3{
+  padding: 0;
+    font-size: 0.8rem;
+}
+}
+@media only screen and (max-width: 351px){
+  #content h1{
+    font-size: 2.6rem;
+    padding-bottom: 5px;
+}
+#content h2{
+    font-size: 0.9rem;
+}
+#content h3{
+  padding: 0;
+    font-size: 0.7rem;
+}
+}
 
 /* scroll down button */
 .mouse {
